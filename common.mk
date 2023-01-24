@@ -335,9 +335,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     oplus-fwk.lahaina
 
-# OnePlus Dolby
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+# # OnePlus Dolby
+# PRODUCT_COPY_FILES += \
+#     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -523,4 +523,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
+$(call inherit-product, vendor/realme/sm8350-common/sm8350-common-vendor.mk)
